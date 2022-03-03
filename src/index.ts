@@ -20,10 +20,3 @@ export function style (tokens: TemplateStringsArray, ...args: string[]) {
     )
     return useStyle(combined)
 }
-
-
-
-// console.log(
-//     color`[Hello world](green.underline) teste`,
-//     `${kleur.green().underline('Hello world')}`
-// )
